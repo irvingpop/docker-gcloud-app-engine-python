@@ -9,8 +9,7 @@ RUN apk add --update \
   py-pillow \
   wget \
   && update-ca-certificates \
-  && rm /var/cache/apk/* \
-  && rm -r /root/.cache
+  && rm /var/cache/apk/*
 
 # install Googla Cloud SDK
 RUN wget https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip \
