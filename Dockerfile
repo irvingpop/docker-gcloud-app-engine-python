@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM node:alpine
 MAINTAINER Serg Baburin <docker@babur.in>
 
 # prepare requirements
