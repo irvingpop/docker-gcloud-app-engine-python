@@ -19,4 +19,3 @@ RUN wget https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip \
   && google-cloud-sdk/bin/gcloud config set --installation component_manager/disable_update_check true \
   && sed -i -- 's/\"disable_updater\": false/\"disable_updater\": true/g' /google-cloud-sdk/lib/googlecloudsdk/core/config.json
 ENV PATH /google-cloud-sdk/bin:$PATH
-

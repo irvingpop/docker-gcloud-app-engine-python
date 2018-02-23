@@ -1,6 +1,6 @@
 Docker container for working with Google App Engine via Google Cloud SDK.
 
-Image based on Alpine linux with installed packages:
+Image based on Node:alpine image with installed packages:
 * ca-certificates
 * openssl
 * python
